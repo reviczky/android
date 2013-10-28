@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Studenplan</string>
-    <string name="hello_world">Findus</string>
+    <string name="findus">Findus</string>
     <string name="action_settings">Settings</string>
 
 </resources>
