@@ -28,7 +28,7 @@
             style="?metaButtonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
+            android:layout_gravity="center_vertical|center_horizontal"
             android:background="@color/black_overlay"
             android:orientation="horizontal"
             tools:ignore="UselessParent">
@@ -42,7 +42,14 @@
                 android:text="@string/dummy_button" />
 -->
 
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/datePicker1"
+                android:layout_gravity="center|center_horizontal|center_vertical" />
+
         </LinearLayout>
+
     </FrameLayout>
 
 </FrameLayout>
